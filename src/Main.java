@@ -9,8 +9,9 @@ public class Main {
 	}
 	
 	public Integer middleIndex(List<Integer> integers) {
-		
 		Integer [] a = new Integer [integers.size()];
+		
+		Integer [] temp = new Integer [integers.size()];
 		integers.toArray(a);
 		Arrays.sort (a);
 		int sumLeft = 0;
